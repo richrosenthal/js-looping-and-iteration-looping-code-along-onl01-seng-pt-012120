@@ -1,5 +1,5 @@
 
-const names = ["Lisa", "Kaitlin", "Jan"];
+const names = [];
 const event = "birthday";
 const messages = [];
 
