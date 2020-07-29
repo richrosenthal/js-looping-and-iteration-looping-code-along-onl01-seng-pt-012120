@@ -2,6 +2,7 @@
 const names = [];
 const event = "birthday";
 const messages = [];
+const number = 10; 
 
 function writeCards(names, event){
   for (let i = 0; i < names.length; i++){
@@ -11,3 +12,10 @@ function writeCards(names, event){
 }
 
 writeCards(names, event);
+
+function countDown(number){
+  while (number > 0){
+    console.log(number)
+    number = number - 1 
+  }
+}
